@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: lightskyblue;
+    background-color: maroon;
     font-size: 15px;
 }
 nav ul{
@@ -20,20 +20,24 @@ li{
 }
 .links{
     text-decoration: none;
+    color: beige;
 }
 #name{
-    color: hsla(hue, saturation, lightness, alpha);
+    color:whitesmoke;
     font-size: 25px;
     padding-right: 150px;
 }
+#description{
+    color: wheat;
+}
 #home{
     display: flex;
-    background-color: cornflowerblue;
+    background-color: wheat;
     height: 70px;
     padding-top: 40px;
     text-align: center;
     font-size: 33px;
-    color: darkblue;
+    color: red;
 }
 #profilepic{
     height: 100px; 
@@ -47,7 +51,7 @@ li{
     font-size:20px;
 }
 #work{
-    background-color: steelblue;
+    background-color: wheat;
     color: maroon;
     display: flex;
     flex-direction: column;
